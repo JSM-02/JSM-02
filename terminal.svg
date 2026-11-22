@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="318" viewBox="0 0 840 318">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #e6edf3; }
+    .mut { fill: #8b949e; }
+    .dir { fill: #79c0ff; font-weight: 600; }
+    .ok { fill: #7ee787; }
+    .tag { fill: #ffa657; font-size: 13px; }
+    .title { fill: #8b949e; font-size: 12px; }
+    .a { opacity: 0; animation: in .25s ease forwards; }
+    .cur { opacity: 0; animation: in .1s 3.6s forwards, blink 1s 3.7s step-end infinite; }
+    @keyframes in { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <clipPath id="c1"><rect x="68" y="60" height="26" width="0"><animate attributeName="width" from="0" to="60" begin="0.4s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="68" y="122" height="26" width="0"><animate attributeName="width" from="0" to="125" begin="1.6s" dur="0.7s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="839" height="317" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 36 H839.5" stroke="#21262d"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <text x="420" y="22" text-anchor="middle" class="title">jsm-02 — zsh</text>
+
+  <g class="a" style="animation-delay:.2s"><text x="32" y="78"><tspan class="ok">~</tspan><tspan class="mut"> $</tspan></text></g>
+  <text x="68" y="78" clip-path="url(#c1)">whoami</text>
+  <g class="a" style="animation-delay:1.0s"><text x="32" y="104">seungmin jeon<tspan class="mut">  ·  seoul, kr</tspan></text></g>
+
+  <g class="a" style="animation-delay:1.4s"><text x="32" y="140"><tspan class="ok">~</tspan><tspan class="mut"> $</tspan></text></g>
+  <text x="68" y="140" clip-path="url(#c2)">ls ~/projects</text>
+
+  <g class="a" style="animation-delay:2.5s">
+    <text x="32" y="168" class="dir">subway-lostfound/</text>
+    <text x="236" y="168" class="mut">java · spring boot · mysql · aws</text>
+  </g>
+  <g class="a" style="animation-delay:2.7s">
+    <text x="32" y="194" class="dir">imagido/</text>
+    <text x="236" y="194" class="mut">typescript · expo · three.js · supabase</text>
+    <text x="580" y="194" class="tag">wip</text>
+  </g>
+  <g class="a" style="animation-delay:2.9s">
+    <text x="32" y="220" class="dir">anyak/</text>
+    <text x="236" y="220" class="mut">python · pyside6</text>
+  </g>
+  <g class="a" style="animation-delay:3.1s">
+    <text x="32" y="246" class="dir">deungdae/</text>
+    <text x="236" y="246" class="mut">react · vite · pwa · kakao maps</text>
+    <text x="580" y="246" class="tag">team · frontend</text>
+  </g>
+
+  <g class="a" style="animation-delay:3.5s"><text x="32" y="284"><tspan class="ok">~</tspan><tspan class="mut"> $</tspan></text></g>
+  <rect class="cur" x="68" y="270" width="9" height="18" fill="#e6edf3"/>
+</svg>
