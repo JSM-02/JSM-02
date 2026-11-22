@@ -1,7 +1,5 @@
 ### 전승민 · Seungmin Jeon
 
-우송대학교 재학 중(2027년 8월 졸업 예정)입니다. 일상에서 불편했던 점을 직접 만든 프로그램으로 풀어 보고 있습니다.
-
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
